@@ -1,0 +1,17 @@
+[package]
+name = "sfont-manager"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "sfont-manager"
+path = "src/main.rs"
+
+[dependencies]
+ratatui       = "0.29"
+crossterm     = "0.28"
+serde         = { version = "1", features = ["derive"] }
+toml          = "0.8"
+walkdir       = "2"
+anyhow        = "1"
+dirs = "5"
