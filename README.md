@@ -2,10 +2,6 @@
 
 A terminal UI for browsing a soundfont library, building profiles, comparing them, and exporting them.
 
-## Requirements
-
-- Rust 1.75+ — install from https://rustup.rs
-
 ## Build
 
 ```bash
